@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/mwc/Documents/codeExamples/poker/src/main/scala/org/poker/poker.scala:15:74: value groupBy is not a member of Iterator[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        val results = io.Source.stdin.getLines.map(l => processInput(l)).groupBy(identity).mapValues(_.size).toList[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mwc/Documents/codeExamples/poker/src/main/scala/org/poker/poker.scala:15:82: missing argument list for method identity in object Predef[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `identity _` or `identity(_)` instead of `identity`.[0m
+[0m[[0m[31merror[0m] [0m[0m        val results = io.Source.stdin.getLines.map(l => processInput(l)).groupBy(identity).mapValues(_.size).toList[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

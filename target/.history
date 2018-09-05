@@ -1,0 +1,27 @@
+run
+run 10
+run
+run 10
+run 100
+run 3999
+run 0
+run 50
+run 100
+run 1100
+run 449
+run
+exit
+run
+run "2D KD 3C"
+run "10D QD AD KD JD"
+run "10D QD AD KD JC"
+run "10D 2D AD KD JC"
+run "10D 2D AD KD JD"
+run "10D 2D AD KD JD 10D 2D AD KD JD 10D"
+run "10D 2D AD KD JD 10D 2D AD KD JD 9D"
+run "10D 2D AD KD JD 10D QD AD KD JC 10D"
+run "10D 2D AC KD JD 10D QD AD KD JC 10D"
+build
+assembly
+exit
+console
